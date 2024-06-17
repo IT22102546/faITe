@@ -5,7 +5,7 @@ const userSchema = new mongoose.Schema({
     firstname:{
 
         type:String,
-        required:true,
+       
        
 
     },
@@ -13,7 +13,7 @@ const userSchema = new mongoose.Schema({
     lastname:{
 
         type:String,
-        required:true,
+       
         
 
     },
@@ -53,7 +53,7 @@ const userSchema = new mongoose.Schema({
     confirmpassword:{
 
         type:String,
-        required:true,
+   
       
 
     },
